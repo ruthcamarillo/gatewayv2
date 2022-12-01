@@ -1,0 +1,98 @@
+/* Made seperate page for orginization */
+*{margin:0; padding:0;}
+html,  
+body {
+  height: 100%;
+  width: 100%;
+}
+.header{
+  font-family:'comforter brush';
+  text-align: center;
+  color:#3d1b00;
+  font-size: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nav{
+  text-align: right;
+  background-color:#1f0000;
+  padding:20px;
+}
+/* Takes care of bar, so color size and where the words end up */
+  
+.nav-item{
+  display:inline;
+  padding: 15px;
+}
+/* keeps my links inline */
+
+.nav-item a {
+ color: goldenrod;
+  font-weight: bold;
+  text-decoration: none;}
+
+.menu{
+  background-image: url("images/org.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+  position:relative;
+    object-fit: cover;
+   z-index: -1;
+top: -5px;
+    height: 100%;
+    }
+
+/* used flexbox.help to find css to align text and pics, works together with product card */
+.menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;}
+
+/* used product card from w3 schools */
+.drink{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding-bottom: 20px;
+}
+
+/*.row{ 
+  display: flex;
+
+}
+.column{
+  flex: 33.33%
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 100px;
+  color: goldenrod;
+ 
+}*/
+/* img{
+  height: 50px;
+  width:10px;
+  display:inline;
+
+
+previous attempts
+} */
+
+footer{
+  background-color:#1f0000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: inline;
+  text-align: center;
+}
+footer img{
+  height:30px;
+  width: 30px;
+  padding: 10px;
+}

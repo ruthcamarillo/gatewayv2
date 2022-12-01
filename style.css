@@ -1,0 +1,131 @@
+*{margin:0; padding:0;}
+
+/* resets page margins and paddings */
+html,  
+body {
+  height: 100%;
+  width: 100%;
+}
+/* for the home page */
+.background{
+  background-image: url("images/coffee\ window.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -5px;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;}
+
+/* 2 header */
+.bien{
+  text-align: center;
+  font-family:'comforter brush';
+  font-weight:bold;
+  color: darkgoldenrod; }
+
+/* paragraph explaining cafe */
+#para{
+  
+  color: darkgoldenrod;
+  text-align: center;
+  font-size: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height:2.0;
+  letter-spacing: 2px;}
+
+/* main heading */
+#myplace{
+  color: goldenrod;
+  text-align: center;
+  font-family:'comforter brush';
+  letter-spacing: 5px;
+  font-size: 80px;
+  padding-top:15%;}
+
+/* images resized */
+img{
+  height: 100px;
+  width:100px;
+  display:inline;}
+
+/* my headers */
+.header{
+  font-family:'comforter brush';
+  text-align: center;
+  color:#3d1b00;
+  font-size: 70px;
+  padding-top: 20px;
+  margin: 30px;}
+
+/* nav bar */
+.nav{
+  text-align:right;
+  background-color:#1f0000;
+  padding:20px;}
+  
+.nav-item{
+  display:inline;
+  color: white;
+  padding: 15px;}
+
+.nav-item a {
+ color: goldenrod;
+  font-weight: bold;
+  text-decoration: none;}
+
+
+/* contact sheet */
+
+.contact{
+  background-image: url("images/thereal.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    top: -40px;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;}
+
+.button{
+  border: none;
+  color: goldenrod;
+  padding-left: 620px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+}
+  
+/* Table CSS */
+.form{
+  padding-left: 450px;
+  padding-top: 40px;}
+
+.table{
+  font-weight: bold;
+  font-family: 'comforter brush';
+  color:darkgoldenrod;
+  font-size: 25px;
+  margin: 30px;
+  border: solid goldenrod 2px;
+  border-radius: 5px;}
+
+/* footer */
+footer{
+  background-color:#1f0000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: inline;
+  text-align: center;}
+
+
+footer img{
+  height:30px;
+  width: 30px;
+  padding: 10px;}
+
+
+
